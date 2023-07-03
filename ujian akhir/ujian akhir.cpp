@@ -62,7 +62,7 @@ class Pemrograman : public MataKuliah {
 	virtual float hitungNilaiAkhir
 
 	virtual void cekKelulusan() {
-		if (nilai >= 75)
+		if (nilai >= 75)  
 			return "selamat anda lulus" << endl;
 		else
 			return "maaf anda gagal " << endl;
